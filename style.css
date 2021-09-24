@@ -1,0 +1,521 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.flex-container{
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.first-block{
+    width: 100%;
+    height: 100vh;
+    background: url(assets/bg-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 580px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.header-link{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+}
+.header-link:hover{
+    text-decoration: underline;
+}
+.header-link-first{
+  text-decoration: underline;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+}
+.header-link-first:hover{
+  opacity: 100%;
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+}
+.main-logo{
+    width: 44px;
+    height: 44px;
+    opacity: 80%;
+}
+.main-logo:hover{
+    opacity: 100%;
+}
+.your-life-block{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    margin: 0 auto;
+    max-width: 730px;
+    height: 75px;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    text-align: center;
+}
+.your-life-description{
+    max-width: 504px;
+    height: 50px;
+    color: white;
+    margin: 20px auto 0 auto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.your-life-get-started{
+    margin: 30px auto 0 auto;
+    width: 184px;
+    height: 46px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.your-life-get-started button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #00AFDB;
+    color: white;
+}
+.your-life-get-started button:hover{
+    cursor: pointer;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    margin: 180px auto 0 auto;
+    height: 20px;
+    width: 170px;
+}
+.socials a:hover{
+    cursor: pointer;
+}
+
+/* #3 BLOCK RAPPRESENT  */
+.rappresent-block{
+    display: flex;
+    margin: 0;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    width: 1600px;
+    padding: 0 15px;
+}
+.rappresent-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 200px;
+    flex: 6;
+}
+.rappresent-content h2{
+    max-width: 367px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.rappresent-content p{
+    max-width: 407px;
+    max-height: 80px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+strong {
+  font-size: 15px;
+}
+.rappresent-get-started{
+    width: 184px;
+    height: 46px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 30px;
+}
+.rappresent-get-started button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #00AFDB;
+    color: white;
+}
+.rappresent-get-started button:hover{
+    cursor: pointer;
+}
+.rappresent-photo{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 269px;
+}
+/*  #4  OUR COMMUNITY BLOCK */
+.community{
+    height: 504px;
+    max-width: 1600px;
+    background-color: #F5F6F7;
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+}
+.community-content{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.community-content-block{
+    max-width: 300px;
+
+}
+.community-photo {
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.community h3{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.community p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.community-photo-block {
+  flex: 6;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+}
+.separators {
+  flex: 6;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 18px;
+  padding-bottom: 0;
+  margin-top: 35px;
+}
+.sep{
+margin-right: 15px;
+}
+.sep-arrow{
+margin-right: 15px;
+}
+.sep-arrow:hover{
+  cursor: pointer;
+}
+.community-slider{
+    flex: 6;
+    display: flex;
+    width: 894px;
+    height: 244px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 140px;
+    
+}
+#slide-1 {
+  width: 407px;
+  height: 244px;
+  margin: 0 auto;
+  background: url(assets/community-img-1.jpg);
+  margin-right: 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#slide-2 {
+  width: 407px;
+  height: 244px;
+  margin: 0 auto;
+  background: url(assets/community-img-2.jpg);
+  margin-right: 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#slide-3 {
+  width: 407px;
+  height: 244px;
+  margin: 0 -40% 0 0;
+  background: url(assets/community-img-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+/* #5 IMPLEMENT BLOCK    */
+
+.implement{
+    display: flex;
+    margin: 0 auto;
+    justify-content: spaces-between;
+    height: 100vh;
+    width: 1600px;
+    padding: 0 15px;
+}
+.implement-content{
+    flex: 6;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.implement-photo{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.implement-learn-more{
+    width: 184px;
+    height: 46px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 30px;
+}
+.implement-learn-more button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #00AFDB;
+    color: white;
+    align-items: left;
+}
+.implement-learn-more button:hover{
+    cursor: pointer;
+}
+.implement-content h2{
+    max-width: 367px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.implement-content p{
+    max-width: 407px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* #6 SIGN UP BLOCK */
+.form-block{
+    max-width: 1600px;
+    height: 524px;
+    background: url(assets/sign-form-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.sign-up{
+    max-width: 380px;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.form-box{
+    margin-top: 20px;
+    max-width: 406px;
+    height: 46px;
+    display: flex;
+}
+.form-box-input{
+    width: 340px;
+    padding: 0 20px;
+}
+.form-box button{
+    width: 66px;
+    height: 46px;
+    background: url(assets/check-icon-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.form-box button:hover{
+    cursor: pointer;
+}
+
+/* #7 DOWNLOAD BLOCK */
+.download-block{
+    height: 464px;
+    background-color: #F5F6F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+.download-block h2{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto;
+}
+.download-block p{
+    padding-top: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    max-width: 480px;
+}
+.download-links{
+    margin-top: 30px;
+    max-width: 406px;
+    display: flex;
+    justify-content: space-between;
+    border
+}
+.download-links a:hover{
+      cursor: pointer;
+}
+
+/* FOOTER */
+.footer{
+    height: 185px;
+    max-width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 0 100px 0 100px;
+}
+
+.footer-links{
+    display: flex;
+    width: 236px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family:
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.android{
+    margin-left: 10px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-links a:hover, .footer-logo:hover{
+    cursor: pointer;
+}
+.author{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #818181;
+    display: flex;
+    align-items: center;
+}
